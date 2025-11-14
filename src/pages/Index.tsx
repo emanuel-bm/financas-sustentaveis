@@ -194,6 +194,79 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Investor Profile Section */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto space-y-8">
+            <div className="text-center space-y-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-2">
+                <BarChart3 className="w-4 h-4" />
+                <span className="text-sm font-medium">Segundo Passo</span>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+                Descubra Seu Perfil de Investidor
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                Conhecer seu perfil é essencial para escolher os investimentos adequados aos seus objetivos e tolerância ao risco
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card className="border-2">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <Shield className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle>Conservador</CardTitle>
+                  <CardDescription className="text-base space-y-3">
+                    <p className="font-medium text-foreground">Foco em Renda Fixa</p>
+                    <p>Prioriza a segurança do capital e aceita rendimentos menores. Investe principalmente em CDB, LCI, LCA e Tesouro Direto.</p>
+                    <p className="text-sm text-muted-foreground italic">Ideal para iniciantes e quem busca estabilidade.</p>
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="border-2 border-primary relative">
+                <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-semibold">
+                  Recomendado
+                </div>
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <BarChart3 className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle>Moderado</CardTitle>
+                  <CardDescription className="text-base space-y-3">
+                    <p className="font-medium text-foreground">Carteira Diversificada</p>
+                    <p>Equilibra segurança e rentabilidade. Combina renda fixa (60-70%) com ações e fundos (30-40%).</p>
+                    <p className="text-sm text-muted-foreground italic">O perfil mais utilizado e recomendado para a maioria dos investidores.</p>
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="border-2">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <TrendingUp className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle>Arrojado</CardTitle>
+                  <CardDescription className="text-base space-y-3">
+                    <p className="font-medium text-foreground">Foco em Ações e Cripto</p>
+                    <p>Busca maiores retornos aceitando mais riscos. Investe principalmente em ações, fundos de ações e criptomoedas.</p>
+                    <p className="text-sm text-muted-foreground italic">Recomendado apenas para investidores experientes.</p>
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </div>
+
+            <div className="bg-accent/50 rounded-lg p-6 text-center">
+              <p className="text-foreground font-medium">
+                💡 <strong>Dica:</strong> Seu perfil pode mudar ao longo do tempo conforme você adquire mais conhecimento e experiência. O importante é ser honesto sobre sua tolerância ao risco.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Investment Types Section */}
       <section className="py-16 bg-accent/30">
         <div className="container mx-auto px-4">
