@@ -118,8 +118,84 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Emergency Fund Section */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto space-y-8">
+            <div className="text-center space-y-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-2">
+                <Shield className="w-4 h-4" />
+                <span className="text-sm font-medium">Primeiro Passo</span>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+                Reserva de Emergência
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                Antes de investir, é essencial construir sua rede de segurança financeira
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card className="border-2">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <Shield className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle>O que é?</CardTitle>
+                  <CardDescription className="text-base">
+                    A reserva de emergência é um montante de dinheiro guardado para cobrir imprevistos como perda de emprego, problemas de saúde ou despesas urgentes. É sua proteção financeira para momentos difíceis.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="border-2">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <TrendingUp className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle>Quanto guardar?</CardTitle>
+                  <CardDescription className="text-base">
+                    O ideal é ter entre 6 a 12 meses de suas despesas mensais guardados. Se você gasta R$ 3.000 por mês, sua reserva deve ser de R$ 18.000 a R$ 36.000.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="border-2">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <BarChart3 className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle>Onde guardar?</CardTitle>
+                  <CardDescription className="text-base">
+                    Mantenha em investimentos de alta liquidez e baixo risco, como Tesouro Selic, CDB com liquidez diária ou poupança. O importante é ter acesso rápido ao dinheiro.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="border-2">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <Leaf className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle>Por que é importante?</CardTitle>
+                  <CardDescription className="text-base">
+                    Evita que você se endivide em momentos de crise, reduz o estresse financeiro e permite que você invista com mais tranquilidade nos outros ativos.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </div>
+
+            <div className="bg-accent/50 rounded-lg p-6 text-center">
+              <p className="text-foreground font-medium">
+                💡 <strong>Dica importante:</strong> Só comece a investir em ativos mais arriscados depois de ter sua reserva de emergência completa. Ela é a base para uma vida financeira saudável e sustentável.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Investment Types Section */}
-      <section className="py-16">
+      <section className="py-16 bg-accent/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
