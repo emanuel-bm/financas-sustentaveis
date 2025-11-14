@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+import heroImage from "@/assets/hero-investments.jpg";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { TrendingUp, Leaf, PiggyBank, BarChart3, Wallet, Shield, Coins, Building2 } from "lucide-react";
-import heroImage from "@/assets/hero-investments.jpg";
+import { BarChart3, Building2, Coins, Leaf, Shield, TrendingUp } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   const investments = [
@@ -67,7 +67,7 @@ const Index = () => {
           <div className="max-w-3xl mx-auto text-center space-y-6">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/50 text-accent-foreground mb-4">
               <Leaf className="w-4 h-4" />
-              <span className="text-sm font-medium">Economia Sustentável - ODS 8</span>
+              <span className="text-sm font-medium">Finanças Sustentáveis</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
@@ -77,17 +77,6 @@ const Index = () => {
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
               Construa um futuro financeiro sólido e sustentável. Entenda como seus investimentos podem contribuir para uma economia mais responsável e próspera.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Button size="lg" className="text-lg">
-                <PiggyBank className="mr-2 h-5 w-5" />
-                Começar Agora
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg">
-                <Wallet className="mr-2 h-5 w-5" />
-                Saiba Mais
-              </Button>
-            </div>
           </div>
         </div>
       </section>
