@@ -243,9 +243,6 @@ const Index = () => {
             <p className="text-lg opacity-90">
               Dê o primeiro passo rumo à independência financeira e contribua para uma economia mais sustentável.
             </p>
-            <Button size="lg" variant="secondary" className="text-lg">
-              Explorar Investimentos
-            </Button>
           </div>
         </div>
       </section>
