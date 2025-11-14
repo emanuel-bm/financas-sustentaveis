@@ -270,8 +270,12 @@ const Index = () => {
       {/* Investment Types Section */}
       <section className="py-16 bg-accent/30">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <div className="text-center mb-12 space-y-4">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-2">
+              <TrendingUp className="w-4 h-4" />
+              <span className="text-sm font-medium">Terceiro Passo</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               Tipos de Investimentos
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
